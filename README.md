@@ -145,6 +145,12 @@ Takes MPEG2-TS segments and transmuxes them into FLV segments. This module is in
 
 This module includes utilities to parse FLV tags into an equivalent javascript object, primarily for debugging purposes.
 
+##### Options
+`muxjs.flv.tools.inspect(data, options)`
+
+Possible `options`
+- `passDataBuffer` (Boleean) - Default = false: Retuns ALL the tag essence data in hex format in the field `data`
+
 ### mp2t
 
 `muxjs.mp2t`
